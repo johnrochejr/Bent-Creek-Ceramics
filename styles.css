@@ -2,11 +2,10 @@ body {
   background-color: #F2F1E8;
   color: #131511;
   margin: 0;
-  padding: 0
+  padding: 0;
   font-family: 'Merriweather';
   line-height: 1.8;
 }
-
 
 header {
   background-color: #FFFFFF;
@@ -46,4 +45,84 @@ header nav ul li a:hover {
 
 header nav ul li a:active {
   color: #968772;
+}
+
+.bent-creek {
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.75em;
+  margin-top: -1.85em;
+}
+
+.tiles {
+  margin-left: 2em;
+  margin-right: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+p {
+  color: #F2F1E8;
+  background-color: #131511;
+}
+
+.endless {
+  background: url(images/optimized/product-1.jpg);
+  width:auto;
+  max-width:100%;
+  height:auto;
+
+}
+
+.sets {
+  background: url(images/optimized/product-2.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.textures {
+  background: url(images/optimized/product-3.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.tea {
+  background: url(images/optimized/product-4.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.jars {
+  background: url(images/optimized/product-5.jpg);
+  height: 200px;
+  width: 200px;
+
+}
+
+.wasabi {
+  background: url(images/optimized/product-6.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+.sippin {
+  background: url(images/optimized/product-7.jpg);
+  height: 200px;
+  width: 200px;
+}
+
+footer {
+  color: #F2F1E8;
+  padding: 1em;
+  background-color: #131511
 }
