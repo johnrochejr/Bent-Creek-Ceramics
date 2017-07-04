@@ -9,11 +9,9 @@ body {
 
 header {
   background-color: #FFFFFF;
-  padding: 1em;
+  padding: .2em;
 }
 
-header nav {
-}
 
 header nav ul {
   font-family: 'Roboto';
@@ -47,12 +45,37 @@ header nav ul li a:active {
   color: #968772;
 }
 
+.wrapper {
+  margin-left: 10em;
+  margin-right: 10em;
+}
 
-
-
-
-  .page {
-    color: #F2F1E8;
-    padding: 1em;
-    background-color: #131511;
+.page {
+  color: #F2F1E8;
+  padding: 1em;
+  background-color: #131511;
   }
+
+  h1 {
+    font-weight: 400;
+    font-size: 6em;
+    text-align: center;
+  }
+
+  .intro img {
+  max-width: 100%;
+  padding: 0;
+  margin: 0 1em 1em 0;
+  display: block;
+  float: left ;
+}
+
+blockquote  p, footer {
+  margin: 0;
+  padding: 0 0 0 3em;
+}
+
+blockquote {
+  border-left: solid 1px #131511;
+  margin-left: -.06em;
+}
