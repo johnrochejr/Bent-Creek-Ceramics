@@ -9,15 +9,29 @@ body {
 
 header {
   background-color: #FFFFFF;
-  padding: 1em;
+  padding: .2em;
 }
 
 header nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+}
+
+.logo {
+  background-image: url(images/optimized/bent-creek-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo a {
+  opacity: 0;
 }
 
 header nav ul {
-  font-family: 'Roboto';
-  text-transform: uppercase;
+
   list-style: none;
   display: flex;
   justify-content: center;
@@ -27,23 +41,23 @@ header nav ul li {
   margin-right: 4em;
 }
 
-header nav ul li a:link {
+header nav a:link {
   color: #2B2F26;
 }
 
-header nav ul li a:visited {
+header nav a:visited {
   color: #F5DEB3;
   text-decoration: none;
   font-size: 2em;
 }
 
-header nav ul li a:focus,
-header nav ul li a:hover {
+header nav a:focus,
+header nav a:hover {
   color: #CD5D67;
   text-decoration: underline;
 }
 
-header nav ul li a:active {
+header nav a:active {
   color: #968772;
 }
 
@@ -64,65 +78,85 @@ h2 {
 }
 
 .tiles {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tiles div {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+.tiles div p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 10px;
 }
 
 p {
   color: #F2F1E8;
-  background-color: #131511;
+  background-color: #2B2F26;
 }
 
 .endless {
   background: url(images/optimized/product-1.jpg);
-  width:auto;
-  max-width:100%;
-  height:auto;
-
+  height: 200px;
+  width: 200px;
+  flex-basis: 58%;
 }
 
 .sets {
   background: url(images/optimized/product-2.jpg);
   height: 200px;
   width: 200px;
+  flex-basis: 18%;
 }
 
 .textures {
   background: url(images/optimized/product-3.jpg);
   height: 200px;
   width: 200px;
+  flex-basis: 18%;
 }
 
 .tea {
   background: url(images/optimized/product-4.jpg);
   height: 200px;
   width: 200px;
+  flex-basis: 18%;
 }
 
 .jars {
   background: url(images/optimized/product-5.jpg);
   height: 200px;
   width: 200px;
-
+  flex-basis: 18%;
 }
 
 .wasabi {
   background: url(images/optimized/product-6.jpg);
   height: 200px;
   width: 200px;
+  flex-basis: 38%;
 }
 
 .sippin {
   background: url(images/optimized/product-7.jpg);
   height: 200px;
   width: 200px;
+  flex-basis: 20%;
 }
+
 
 footer {
   color: #F2F1E8;
   padding: 1em;
-  background-color: #131511
+  background-color: #2B2F26;
 }

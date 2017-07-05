@@ -8,28 +8,34 @@
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
   </head>
   <body>
-    <header class="site-header">
-      <header id="site_header">
-        <a id="logo"><img src="images/optimized/bent-creek-logo.png" alt="Bent Creek Ceramics Logo"></a>
-        <nav class="nav-bar">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Newsletter</a>
-        </nav>
+    <div class="wrapper">
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href='logo'>Logo</a></li>
+        </ul>
+        <ul>
+          <li><a href='home'>Home</a></li>
+          <li><a href='about'>About</a></li>
+          <li><a href='newsletter'>Newsletter</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="header-content">
       <div class="sign_up">
         <h1>Sign Up for Our Weekly Newsletter</h1>
         <h2>Stay up to date with events, activities, news and specials.</h2>
-        <form>
-          Name<br>
-          Email<br>
-        </form>
+      <form action="#name" class='name'>
+        <input type="text" placeholder="Name">
+      </form>
+      <form action="#email" class='email'>
+        <input type="text" placeholder="Email">
+        <button type="submit">Submit</button>
+      </form>
 
 <!-- Inquire about background image and button -->
-
       </div>
     </section>
-  </header>
-</body>
+    </div>
+  </body>
 </html>

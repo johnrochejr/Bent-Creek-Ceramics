@@ -12,10 +12,26 @@ header {
   padding: .2em;
 }
 
-
-header nav ul {
+header nav {
+  display: flex;
+  justify-content: space-between;
   font-family: 'Roboto';
   text-transform: uppercase;
+}
+
+.logo {
+  background-image: url(images/optimized/bent-creek-logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.logo a {
+  opacity: 0;
+}
+
+header nav ul {
+
   list-style: none;
   display: flex;
   justify-content: center;
@@ -25,23 +41,23 @@ header nav ul li {
   margin-right: 4em;
 }
 
-header nav ul li a:link {
+header nav a:link {
   color: #2B2F26;
 }
 
-header nav ul li a:visited {
+header nav a:visited {
   color: #F5DEB3;
   text-decoration: none;
   font-size: 2em;
 }
 
-header nav ul li a:focus,
-header nav ul li a:hover {
+header nav a:focus,
+header nav a:hover {
   color: #CD5D67;
   text-decoration: underline;
 }
 
-header nav ul li a:active {
+header nav a:active {
   color: #968772;
 }
 
@@ -63,11 +79,9 @@ header nav ul li a:active {
   }
 
   .intro img {
-  max-width: 100%;
-  padding: 0;
-  margin: 0 1em 1em 0;
-  display: block;
-  float: left ;
+  background-size: contain;
+  width: 100%;
+  float: left;
 }
 
 blockquote  p, footer {
