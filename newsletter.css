@@ -17,7 +17,8 @@ header nav {
   justify-content: space-between;
   font-family: 'Roboto';
   text-transform: uppercase;
-  margin-right: 11em;
+  margin-right: 21em;
+  font-size: 20px;
 }
 
 .logo {
@@ -65,4 +66,16 @@ header nav a:active {
 .wrapper {
   background-image: url(images/optimized/background-2.jpg);
   background-size: cover;
+  height: 560px;
+  width: 1280px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.square {
+  text-align: center;
+  background-color: #F2F1E8;
+  margin-left: 17em;
+  margin-right: 27em;
+  margin-top: 3em;
 }

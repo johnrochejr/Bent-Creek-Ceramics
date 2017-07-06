@@ -121,6 +121,7 @@ h3 {
   height: 1100px;
   width: 152%;
   margin-left: -23em;
+  margin-top: 4em;
 }
 
 .grow p {
@@ -130,5 +131,14 @@ h3 {
   bottom: 260px;
   left: 1700px;
   font-size: 13em;
+}
 
+.facilities {
+
+}
+
+aside {
+  background-image: url(images/optimized/background-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
