@@ -1,10 +1,8 @@
 body {
   background-color: #F2F1E8;
-  color: #131511;
-  margin: 0;
-  padding: 0;
+  color: #2B2F26;
   font-family: 'Merriweather';
-  line-height: 1.8;
+  line-height: 2.3;
 }
 
 header {
@@ -17,13 +15,13 @@ header nav {
   justify-content: space-between;
   font-family: 'Roboto';
   text-transform: uppercase;
+  margin-right: 42em;
 }
 
 .logo {
   background-image: url(images/optimized/bent-creek-logo.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100%;
 }
 
 .logo a {
@@ -35,6 +33,7 @@ header nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  font-size: 4em;
 }
 
 header nav ul li {
@@ -62,34 +61,74 @@ header nav a:active {
 }
 
 .wrapper {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 22em;
+  margin-right: 22em;
 }
 
 .page {
   color: #F2F1E8;
-  padding: 1em;
-  background-color: #131511;
+  padding: 1.4em;
+  background-color: #2B2F26;
+  font-size: 3.1em;
   }
 
   h1 {
-    font-weight: 400;
-    font-size: 6em;
+    font-weight: 300;
+    font-size: 16em;
     text-align: center;
+    margin: .1em;
   }
 
-  .intro img {
+.birdhouse {
+  background-image: url(images/optimized/birdhouse.jpg);
   background-size: contain;
-  width: 100%;
+  background-repeat: no-repeat;
+  height: 11em;
+  width: 15em;
   float: left;
+  margin-right: 2em;
 }
 
-blockquote  p, footer {
+p {
+  font-size: 4.2em;
+}
+
+
+blockquote  p {
   margin: 0;
   padding: 0 0 0 3em;
+  font-style: italic;
+  font-weight: lighter;
 }
 
 blockquote {
-  border-left: solid 1px #131511;
+  border-left: solid 1px #2B2F26;
   margin-left: -.06em;
+  margin-top: 3em;
+}
+
+h3 {
+  font-size: 6em;
+  font-weight: 300;
+  margin-bottom: -.5em;
+}
+
+.grow {
+  background-image: url(images/optimized/background-3.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1100px;
+  width: 152%;
+  margin-left: -23em;
+}
+
+.grow p {
+  color: #F2F1E8;
+  margin: 0;
+  position: absolute;
+  bottom: 260px;
+  left: 1700px;
+  font-size: 13em;
+
 }
